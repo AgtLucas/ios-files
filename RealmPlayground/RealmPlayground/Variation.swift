@@ -6,4 +6,9 @@
 //  Copyright (c) 2015 Vou de ônibus. All rights reserved.
 //
 
-import Foundation
+import UIKit
+import RealmSwift
+
+class Variation: Object {
+  dynamic var name = ""
+}
