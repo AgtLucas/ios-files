@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		30B22090B73C1D2E1F70CA9D /* Pods_RealmPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C78D573433BD1F39FC9F9C6 /* Pods_RealmPlayground.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A05D51FC1B422D2000597F5B /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05D51FB1B422D2000597F5B /* Line.swift */; };
 		A0F85AA61B4227170063DC43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F85AA51B4227170063DC43 /* AppDelegate.swift */; };
 		A0F85AA81B4227170063DC43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F85AA71B4227170063DC43 /* ViewController.swift */; };
 		A0F85AAB1B4227170063DC43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F85AA91B4227170063DC43 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		1C7ED2BE1BDCA6E369C48783 /* Pods-RealmPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmPlayground/Pods-RealmPlayground.debug.xcconfig"; sourceTree = "<group>"; };
 		2C78D573433BD1F39FC9F9C6 /* Pods_RealmPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05D51FB1B422D2000597F5B /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 		A0F85AA01B4227170063DC43 /* RealmPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F85AA41B4227170063DC43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0F85AA51B4227170063DC43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A05D51FA1B422CD300597F5B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A05D51FB1B422D2000597F5B /* Line.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		A0F85A971B4227170063DC43 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +111,7 @@
 		A0F85AA21B4227170063DC43 /* RealmPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				A05D51FA1B422CD300597F5B /* Models */,
 				A0F85AA51B4227170063DC43 /* AppDelegate.swift */,
 				A0F85AA71B4227170063DC43 /* ViewController.swift */,
 				A0F85AA91B4227170063DC43 /* Main.storyboard */,
@@ -287,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05D51FC1B422D2000597F5B /* Line.swift in Sources */,
 				A0F85AA81B4227170063DC43 /* ViewController.swift in Sources */,
 				A0F85AA61B4227170063DC43 /* AppDelegate.swift in Sources */,
 			);
