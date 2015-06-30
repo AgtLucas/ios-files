@@ -11,7 +11,7 @@ import RealmSwift
 
 class Trip: Object {
   dynamic var _id = ""
-  dynamic var direction = ""
+  var direction: Int?
   dynamic var origin = ""
   dynamic var destination = ""
   let departures = List<Departure>()
