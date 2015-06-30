@@ -10,5 +10,5 @@ import UIKit
 import RealmSwift
 
 class Departure: Object {
-  dynamic var category_day = ""
+  var category_day: Int?
 }
