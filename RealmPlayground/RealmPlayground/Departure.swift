@@ -6,4 +6,9 @@
 //  Copyright (c) 2015 Vou de ônibus. All rights reserved.
 //
 
-import Foundation
+import UIKit
+import RealmSwift
+
+class Departure: Object {
+  dynamic var category_day = ""
+}
