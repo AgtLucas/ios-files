@@ -8,3 +8,11 @@
 
 import UIKit
 import RealmSwift
+
+class Trip: Object {
+  dynamic var _id = ""
+  dynamic var direction = ""
+  dynamic var origin = ""
+  dynamic var destination = ""
+  let departures = List<Departure>()
+}
