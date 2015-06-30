@@ -7,4 +7,13 @@
 //
 
 import UIKit
-import Realm
+import RealmSwift
+
+class Line: Object {
+  dynamic var _id = ""
+  dynamic var route_long_name = ""
+  dynamic var route_short_name = ""
+  dynamic var country = ""
+  dynamic var state = ""
+  let trips = List<Trip>()
+}
