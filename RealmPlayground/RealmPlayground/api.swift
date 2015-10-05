@@ -6,4 +6,4 @@
 //  Copyright (c) 2015 Vou de ônibus. All rights reserved.
 //
 
-import Foundation
+import Realm
