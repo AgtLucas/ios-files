@@ -23,7 +23,7 @@ class ViewController: UIViewController {
   }
   
   func getAllLines() {
-    let url = "http://line.voudeonibusapp.com/all"
+    let url = "foo"
     
     Alamofire.request(.GET, url)
       .responseJSON { (_, _, JSON, _) in
